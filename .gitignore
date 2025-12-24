@@ -1,0 +1,6 @@
+*.log
+test_*
+*.tar.gz
+*_test.*
+__pycache__
+*performance*

@@ -1,0 +1,28 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "P@ssw0rd",
+    "dbname": "vehicle_db"
+  },
+  "app": {
+    "secret_key": "dev-secret-key-for-vehicle-system",
+    "upload_folder": "/home/long/CodeModels/summarize_vehicle/uploads",
+    "allowed_extensions": ["csv"],
+    "max_content_length": 16777216
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "vehicle_data.log"
+  },
+  "business": {
+    "standard_path": [
+      ["K0001+000", "K0100+000", "K0200+000", "K0300+000"],
+      ["K0001+300", "K0100+300", "K0100+300", "K0100+300"]
+    ],
+    "max_threads_multiplier": 4,
+    "continuous_threshold": 1.0
+  }
+}

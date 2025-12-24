@@ -1,0 +1,13 @@
+# 车辆数据管理系统依赖
+# Flask Web框架
+flask==2.3.2
+
+# PostgreSQL数据库驱动
+psycopg2-binary==2.9.9
+
+# 用于文件上传安全处理
+werkzeug==2.3.7
+
+# 用于数据处理
+pandas==2.1.0
+numpy==1.25.2
